@@ -1,14 +1,38 @@
 {
-    "name": "我的专属接口",
-    "version": "1.0",
+    "name": "我的专属影视仓",
+    "version": "1.1",
     "timeout": 10,
     "retry": 1,
     "sites": [
         {
-            "key": "test1",
-            "name": "测试线路",
+            "key": "zy01",
+            "name": "高清主线路（长期维护）",
             "type": 1,
-            "api": "https://api.caiyunapp.com/v2",
+            "api": "https://app.qzsy.cc/api.php",
+            "searchable": 1,
+            "filterable": 1
+        },
+        {
+            "key": "zy02",
+            "name": "备用线路1（秒开）",
+            "type": 1,
+            "api": "https://json.808848.xyz/api.php",
+            "searchable": 1,
+            "filterable": 1
+        },
+        {
+            "key": "zy03",
+            "name": "备用线路2（高清）",
+            "type": 1,
+            "api": "https://api.51zyapi.com/api.php",
+            "searchable": 1,
+            "filterable": 1
+        },
+        {
+            "key": "zy04",
+            "name": "海外线路（备用）",
+            "type": 1,
+            "api": "https://tvapi.miwork.top/api.php",
             "searchable": 1,
             "filterable": 1
         }
