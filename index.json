@@ -1,41 +1,43 @@
 {
-    "name": "我的专属影视仓",
-    "version": "1.1",
-    "timeout": 10,
+    "name": "我的影视仓",
+    "version": "1.0",
+    "timeout": 15,
     "retry": 1,
     "sites": [
         {
-            "key": "zy01",
-            "name": "高清主线路（长期维护）",
+            "key": "main1",
+            "name": "🏠 高清主线路",
             "type": 1,
-            "api": "https://app.qzsy.cc/api.php",
+            "api": "https://api.8888zy.com/api.php",
             "searchable": 1,
             "filterable": 1
         },
         {
-            "key": "zy02",
-            "name": "备用线路1（秒开）",
+            "key": "main2",
+            "name": "⚡ 秒开备用线",
             "type": 1,
-            "api": "https://json.808848.xyz/api.php",
+            "api": "https://json.1080pzy.top/api.php",
             "searchable": 1,
             "filterable": 1
         },
         {
-            "key": "zy03",
-            "name": "备用线路2（高清）",
+            "key": "main3",
+            "name": "🎬 全网聚合线",
             "type": 1,
-            "api": "https://api.51zyapi.com/api.php",
+            "api": "https://api.66mz8.com/api.php",
             "searchable": 1,
             "filterable": 1
         },
         {
-            "key": "zy04",
-            "name": "海外线路（备用）",
+            "key": "main4",
+            "name": "📺 稳定影视线",
             "type": 1,
-            "api": "https://tvapi.miwork.top/api.php",
+            "api": "https://tv.52bp.org/api.php",
             "searchable": 1,
             "filterable": 1
         }
     ],
-    "lives": []
+    "lives": [],
+    "parses": [],
+    "flags": {}
 }
