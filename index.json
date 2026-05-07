@@ -1,0 +1,17 @@
+{
+    "name": "我的专属接口",
+    "version": "1.0",
+    "timeout": 10,
+    "retry": 1,
+    "sites": [
+        {
+            "key": "test1",
+            "name": "测试线路",
+            "type": 1,
+            "api": "https://api.caiyunapp.com/v2",
+            "searchable": 1,
+            "filterable": 1
+        }
+    ],
+    "lives": []
+}
